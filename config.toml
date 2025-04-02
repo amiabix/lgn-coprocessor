@@ -1,0 +1,14 @@
+[rpc]
+url = "https://eth-sepolia.g.alchemy.com/v2/TQZFBDdHcIcpC5rNCkhJ8Dzhh0AmlQ4u"
+
+[indexing]
+contract_address = "0x4a494d9ce1cf5475838b4ae80d7e8389b3d29cdb"
+start_block = 5485000
+end_block = 5485100
+
+[query]
+type = "slot_reader"
+slot = "0x00000000000000000000000063029cf2dd9a75c401059e1d2cf44c95c7e1c7a6"
+
+[prover]
+mode = "none"
